@@ -1,0 +1,91 @@
+	SA20 SCHEMATIC DIRECTORY				
+	uP/MEMORY..............S1 
+	TIMEING LOGIC..........S2
+	DECODER LOGIC..........S3
+	KBRD,SPKR,LCD..........S4
+	HV,LV,SUPPLY...........S5-S7
+	SINGLE PGMR............S8
+	GANG PGMR..............S9-S10
+	SERIAL/PARALLEL IO.....S11
+	SA-20,10 IC LIST, filename: saic.lst
+	top is at port connectors
+	IC-1	MPQ-2907	;low left corner brd
+	IC-2	65C02		;only 40 pin bot right brd
+	IC-3	74HC244		;second left of 6502 
+	IC-4	74HC245		;r of 6502
+	IC-5	74HC244		;l of 6502
+	IC-6	74HC273		;l of IC-9(Flash)
+	I6	74HC273	;I6 is type error on board ;second r of 6502
+	IC-7	27C64A		
+	IC-8	HM6264LP-15
+	IC-9	28F256
+	IC-(10-17) 4C1001	;1meg drams
+	IC-18	74HC138		;b lft corner of IC-9(Flash)
+	IC-19	MC1488		;top left of board
+	IC-(20-23) 74HC273	;3rd left of IC-9(Flash)
+	IC-(24-27) 7406		;left of top left corner IC-9
+	IC-28	MPQ-2907	;bot left corn board
+	IC-(29,30) 7406		;lft of IC-9 at edge of brd
+	IC-31	74HC273		;r of zif
+	IC-32	74HCT244	;r of zif
+	IC-33	74HC374		;r of zif
+	IC-34	74HC273		;r of zif
+	IC-35	74HC273		;second lft of IC-9
+	IC-(36,37,38) NU
+	IC-39	74HC273		;bot right of brd
+	IC-40	74HC244		;3 right of 6502
+	IC-41	74HC273		;4 right of 6502
+	IC-42	LM386		;bot right cornr of brd
+	IC-43	74HC138		;bot left cornr 6502
+	IC-(44,45,46,47,48) NU
+	IC-49	74HC161B1 	;below IC-9
+	IC-(50,51) 74HC74	;below IC-9
+	IC-52	74HC04		;below IC-9
+	IC-53	74HC32		;below IC-9
+	IC-54	74HC08		;below IC-9 bot edge brd
+	IC-55	74HC138		;r of top right cornr 6502
+	IC-56	74HC374		;r top of brd
+	IC-57	65SC21P-1	;mid top of brd
+	IC-58	65SC51PI-1	;l mid top of brd
+	IC-59	MC1489		;l top brd
+	IC-60	74HCT244	;mid right of brd
+	IC-61	74HC273		;mid brd
+	IC-62	74HC273		;mid r brd
+	IC-63	74HC374		;mid r brd
+	IC-(64-66) 74HC273	;up mid brd
+	IC-67	74HC138		;r of top right corner 6502
+	IC-(68,69,70,71) NU
+	IC-72	7406		;above 6502
+	THE END OF IC LIST  61 IC's TOTAL
+	title: sarp.lst
+	March 27 1989, 2:05pm a list of resistor packs and reference to location
+	rp1	;bottom mid left
+	PR2	;pr2(typeo) btm mid left
+	rp2-5	;mid far left
+	rp6-7	;low left
+	rp8	;low mid lft
+	rp9	;btm left
+	rp10	;low mid left
+	rp11	;lower right
+	rp12	;low right
+	rp13-16	;low far right
+	rp17	;mid up
+	rp18	;btm mid
+	rp19	;low mid
+	rp20	;low mid
+	rp21-NU
+	rp22	;mid up
+	rp23-NU
+	rp24	;mid up
+	rp25	;mid up
+	rp26	;middle
+	rp27	;mid right
+	rp28	;mid up right
+	rp29	;mid right
+	rp30	;mid up right
+	rp31	;mid right
+	rp32	;mid right
+	rp33-34-NU
+	rp35	;up left
+	rp36	;upper right
+
